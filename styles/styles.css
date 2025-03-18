@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "bagnard";
+  src: url("../assets/fonts/bagnard.otf"), format("otf");
+}
+
+@font-face {
+  font-family: "eb-garamond-regular";
+  src: url("../assets/fonts/EBGaramond12-Regular.otf");
+}
+
+* {
+  color: rgb(239, 218, 185);
+  line-height: 1.5;
+  font-family: eb-garamond-regular;
+}
+
+body {
+  background: rgb(54, 48, 49);
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: bagnard;
+}
+
+h1#title {
+  font-family: eb-garamond-regular;
+}
+
+article {
+  max-width: 40rem;
+  margin-left: 5rem;
+}
+
+article h1 {
+  font-size: 2rem;
+}
